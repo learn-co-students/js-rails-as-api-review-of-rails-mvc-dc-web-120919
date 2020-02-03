@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  # Add route from Readme
+  # Add route f
+  get '/birds' => 'birds#index'
 end
